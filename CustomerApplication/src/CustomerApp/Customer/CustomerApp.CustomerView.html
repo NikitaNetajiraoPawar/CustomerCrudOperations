@@ -1,0 +1,25 @@
+
+Customer Name:<input  [(ngModel)]="CustomerModel.CustomerName" type=text><br>
+Customer Code:<input  [(ngModel)]="CustomerModel.CustomerCode" type=text><br>
+Customer Amount:<input  [(ngModel)]="CustomerModel.CustomerAmount" type=text><br>
+<input (click)="Add()" type="button" value="ADD"><br>
+{{CustomerModel.CustomerName}}<br><br>
+{{CustomerModel.CustomerCode}}<br><br>
+{{CustomerModel.CustomerAmount}}<br><br>
+<br><br>
+<hr>
+<table>
+ <tr>
+    <td>CustomerName</td>
+    <td>CustomerCode</td>
+    <td>CustomerAmount</td>
+ </tr>  
+ <tr *ngFor="let customer of CustomerModels">
+<td>{{customer.CustomerName}}</td>
+<td>{{customer.CustomerCode}}</td>
+<td>{{customer.CustomerAmount}}</td>
+ </tr> 
+</table>
+
+
+
