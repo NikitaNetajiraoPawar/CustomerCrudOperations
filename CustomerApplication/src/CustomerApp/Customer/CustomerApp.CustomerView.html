@@ -1,11 +1,22 @@
+<form [formGroup]="CustomerModel.formCustomerGroup">
+Customer Name:<input formControlName="CustomerNameControl" [(ngModel)]="CustomerModel.CustomerName" type=text><br>
+Customer Code:<input formControlName="CustomerCodeControl"  [(ngModel)]="CustomerModel.CustomerCode" type=text><br>
+Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="CustomerModel.CustomerAmount" type=text><br>
 
-Customer Name:<input  [(ngModel)]="CustomerModel.CustomerName" type=text><br>
-Customer Code:<input  [(ngModel)]="CustomerModel.CustomerCode" type=text><br>
-Customer Amount:<input  [(ngModel)]="CustomerModel.CustomerAmount" type=text><br>
-<input (click)="Add()" type="button" value="ADD"><br>
-{{CustomerModel.CustomerName}}<br><br>
-{{CustomerModel.CustomerCode}}<br><br>
-{{CustomerModel.CustomerAmount}}<br><br>
+<input  [disabled]="!(CustomerModel.formCustomerGroup.valid)"  (click)="Add()" type="button" value="ADD"><br>
+</form>
+
+
+<div  *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('pattern','CustomerCodeControl'))">
+   Customer Code format is not Proper
+</div>
+<div  *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('required','CustomerCodeControl'))">
+   Customer Code is required
+</div>
+<div  *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('required','CustomerNameControl'))">
+   Customer Name is required
+</div>
+
 <br><br>
 <hr>
 <table>
