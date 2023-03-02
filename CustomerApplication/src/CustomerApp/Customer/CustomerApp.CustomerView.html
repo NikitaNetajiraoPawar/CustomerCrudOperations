@@ -6,6 +6,10 @@ Customer Code:<input formControlName="CustomerCodeControl"  [(ngModel)]="Custome
 Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="CustomerModel.CustomerAmount" type=text><br>
 
 <input  [disabled]="!(CustomerModel.formCustomerGroup.valid)"  (click)="Add()" type="button" value="ADD"><br>
+<br>
+<input type="button" value="Send to sever" (click)="PosttoServer()">
+
+
 </form>
 
 
@@ -18,7 +22,6 @@ Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="Custo
 <div  *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('required','CustomerNameControl'))">
    Customer Name is required
 </div>
-
 <br><br>
 <hr>
 
@@ -30,7 +33,7 @@ Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="Custo
 
 <hr>
 
-<table>
+<!-- <table>
  <tr>
     <td>CustomerName</td>
     <td>CustomerCode</td>
@@ -41,7 +44,7 @@ Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="Custo
 <td>{{customer.CustomerCode}}</td>
 <td>{{customer.CustomerAmount}}</td>
  </tr> 
-</table>
+</table> -->
 
 
 

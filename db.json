@@ -1,0 +1,340 @@
+{
+  "Customers": [
+    {
+      "id": 1,
+      "CustomerCode": "1001",
+      "CustomerName": "Nikita",
+      "CustomerAmount": "100.23"
+    },
+    {
+      "CustomerCode": "2003",
+      "CustomerName": "Chivya",
+      "CustomerAmount": "12",
+      "id": 2
+    },
+    {
+      "CustomerCode": "2005",
+      "CustomerName": "Miee",
+      "CustomerAmount": "12.34",
+      "id": 3
+    },
+    {
+      "CustomerCode": "2006",
+      "CustomerName": "Krishn",
+      "CustomerAmount": "12.34",
+      "id": 4
+    },
+    {
+      "CustomerCode": "6007",
+      "CustomerName": "Pappa",
+      "CustomerAmount": "12",
+      "id": 5
+    },
+    {
+      "CustomerCode": "8009",
+      "CustomerName": "Aai",
+      "CustomerAmount": "12",
+      "id": 6
+    },
+    {
+      "CustomerCode": "7008",
+      "CustomerName": "raju",
+      "CustomerAmount": "12",
+      "id": 7
+    },
+    {
+      "CustomerCode": "5004",
+      "CustomerName": "joo",
+      "CustomerAmount": "12",
+      "id": 8
+    },
+    {
+      "CustomerCode": "8009",
+      "CustomerName": "tester",
+      "CustomerAmount": "12",
+      "id": 9
+    },
+    {
+      "CustomerCode": "7989",
+      "CustomerName": "xyz",
+      "CustomerAmount": "12",
+      "id": 10
+    },
+    {
+      "CustomerCode": "5001",
+      "CustomerName": "testy",
+      "CustomerAmount": "12",
+      "id": 11
+    },
+    {
+      "CustomerCode": "78123",
+      "CustomerName": "tester123",
+      "CustomerAmount": "12",
+      "id": 12
+    },
+    {
+      "CustomerCode": "78123",
+      "CustomerName": "raja",
+      "CustomerAmount": "12",
+      "id": 13
+    },
+    {
+      "CustomerCode": "9776",
+      "CustomerName": "12",
+      "CustomerAmount": "12",
+      "id": 14
+    },
+    {
+      "CustomerCode": "5678",
+      "CustomerName": "12",
+      "CustomerAmount": "12",
+      "id": 15
+    },
+    {
+      "CustomerCode": "4569",
+      "CustomerName": "shiv",
+      "CustomerAmount": "12",
+      "id": 16
+    },
+    {
+      "CustomerCode": "ddd",
+      "CustomerName": "12",
+      "CustomerAmount": "12",
+      "id": 17
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 18
+    },
+    {
+      "CustomerCode": "8008",
+      "CustomerName": "doubledata",
+      "CustomerAmount": "12",
+      "id": 19
+    },
+    {
+      "CustomerCode": "8008",
+      "CustomerName": "doubledata",
+      "CustomerAmount": "12",
+      "id": 20
+    },
+    {
+      "CustomerCode": "6008",
+      "CustomerName": "testdoublr",
+      "CustomerAmount": "12",
+      "id": 21
+    },
+    {
+      "CustomerCode": "4004",
+      "CustomerName": "double123",
+      "CustomerAmount": "12",
+      "id": 22
+    },
+    {
+      "CustomerCode": "9000",
+      "CustomerName": "testing",
+      "CustomerAmount": "9000",
+      "id": 23
+    },
+    {
+      "CustomerCode": "1234",
+      "CustomerName": "shine",
+      "CustomerAmount": "00000",
+      "id": 24
+    },
+    {
+      "CustomerCode": "1222",
+      "CustomerName": "ssss",
+      "CustomerAmount": "0000",
+      "id": 25
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "shine",
+      "CustomerAmount": 0,
+      "id": 26
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "shine",
+      "CustomerAmount": 0,
+      "id": 27
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 28
+    },
+    {
+      "CustomerCode": "4444",
+      "CustomerName": "nikita",
+      "CustomerAmount": 0,
+      "id": 29
+    },
+    {
+      "CustomerCode": "4444",
+      "CustomerName": "nikita",
+      "CustomerAmount": 0,
+      "id": 30
+    },
+    {
+      "CustomerCode": "4444",
+      "CustomerName": "nikita",
+      "CustomerAmount": 0,
+      "id": 31
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "testagain",
+      "CustomerAmount": 0,
+      "id": 32
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 33
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 34
+    },
+    {
+      "CustomerCode": "6666",
+      "CustomerName": "retest",
+      "CustomerAmount": 0,
+      "id": 35
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 36
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 37
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "1222",
+      "CustomerAmount": 0,
+      "id": 38
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "1222",
+      "CustomerAmount": 0,
+      "id": 39
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "1222",
+      "CustomerAmount": 0,
+      "id": 40
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "1222",
+      "CustomerAmount": 0,
+      "id": 41
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "1111",
+      "CustomerAmount": 0,
+      "id": 42
+    },
+    {
+      "CustomerCode": "4444",
+      "CustomerName": "aaaa",
+      "CustomerAmount": 0,
+      "id": 43
+    },
+    {
+      "CustomerCode": "4444",
+      "CustomerName": "aaaa",
+      "CustomerAmount": 0,
+      "id": 44
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 45
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 46
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 47
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 48
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 49
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "gfh",
+      "CustomerAmount": 0,
+      "id": 50
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 51
+    },
+    {
+      "CustomerCode": "",
+      "CustomerName": "",
+      "CustomerAmount": 0,
+      "id": 52
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "try",
+      "CustomerAmount": 0,
+      "id": 53
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "try",
+      "CustomerAmount": 0,
+      "id": 54
+    },
+    {
+      "CustomerCode": "1111",
+      "CustomerName": "try",
+      "CustomerAmount": 0,
+      "id": 55
+    },
+    {
+      "CustomerCode": "5555",
+      "CustomerName": "nikita trying ",
+      "CustomerAmount": 0,
+      "id": 56
+    }
+  ]
+}

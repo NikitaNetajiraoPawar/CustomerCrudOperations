@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { CustomerRoutes  }  from '../Routing/CustomerApp.CustomerRoutes';
 import { CustomerComponent } from './CustomerApp.CustomerComponent';
 import { GridComponent } from '../Utility/CustomerApp.GridComponent';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { GridComponent } from '../Utility/CustomerApp.GridComponent';
     GridComponent
   ],
   imports: [
-    CommonModule ,
+    CommonModule ,HttpClientModule,
     FormsModule,ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'}) ,
     RouterModule.forChild(CustomerRoutes)
   ],
