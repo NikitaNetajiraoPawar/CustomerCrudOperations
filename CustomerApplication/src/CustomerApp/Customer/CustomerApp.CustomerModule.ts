@@ -14,7 +14,9 @@ import { CustomerComponent } from './CustomerApp.CustomerComponent';
     FormsModule,ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'}) ,
     RouterModule.forChild(CustomerRoutes)
   ],
-  providers: [],
+  providers: [ 
+   
+  ],
   bootstrap: [CustomerComponent]
 })
 export class CustomerModule { }
