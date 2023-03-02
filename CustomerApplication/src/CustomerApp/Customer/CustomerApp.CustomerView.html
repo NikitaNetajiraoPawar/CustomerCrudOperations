@@ -1,3 +1,5 @@
+
+
 <form [formGroup]="CustomerModel.formCustomerGroup">
 Customer Name:<input formControlName="CustomerNameControl" [(ngModel)]="CustomerModel.CustomerName" type=text><br>
 Customer Code:<input formControlName="CustomerCodeControl"  [(ngModel)]="CustomerModel.CustomerCode" type=text><br>
@@ -19,6 +21,15 @@ Customer Amount:<input  [ngModelOptions]="{standalone: true}" [(ngModel)]="Custo
 
 <br><br>
 <hr>
+
+<Grid-UI  
+[grid-columns]="[{'colName':'CustomerCode'},{'colName':'CustomerName'},{'colName':'CustomerAmount'}]"  
+[grid-data]="CustomerModels"
+ (grid-selected)="SelectCustomer($any($event))">
+</Grid-UI>
+
+<hr>
+
 <table>
  <tr>
     <td>CustomerName</td>

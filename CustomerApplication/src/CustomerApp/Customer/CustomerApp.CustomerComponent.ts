@@ -23,4 +23,9 @@ export class CustomerComponent {
   {
    return this.CustomerModel.formCustomerGroup.controls[controlName].hasError(typeofValidator);
   }
+
+  SelectCustomer(_Selected:Customer)
+  {
+    this.CustomerModel=_Selected;
+     }
 }
